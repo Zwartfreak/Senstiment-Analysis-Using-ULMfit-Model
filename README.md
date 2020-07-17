@@ -1,1 +1,7 @@
 # Senstiment-Analysis-Using-ULMfit-Model
+
+Transfer learning has greatly impacted computer vision, but existing approaches in NLP still require task-specific modifications and training from scratch. We propose an effective transfer learning method that can be applied to any task in NLP, and introduce techniques that are key for fine-tuning a language model. Our method significantly outperforms the state-of-the-art on six text classification tasks, reducing the error by 18-24% on the majority of datasets. Furthermore, with only 100 labeled examples, it matches the performance of training from scratch on 100x more data.
+
+We have found that the approach works well on different tasks with the same settings. Besides text classification, there are many other important NLP problems, such as sequence tagging or natural language generation, that we hope ULMFiT will make easier to tackle in the future. We will be updating this site as we complete our experiments and build models in these areas.
+
+In computer vision the success of transfer learning and availability of pre-trained Imagenet models has transformed the field. Many people including entrepreneurs, scientists, and engineers are now using fine-tuned Imagenet models to solve important problems involving computer vision—everything from improving crop yields in Africa to building robots that sort lego bricks. Now that the same tools are available for processing natural language, we hope to see the same explosion of applications in this field too.
